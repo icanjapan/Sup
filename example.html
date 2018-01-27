@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+  </body>
+</html>
+The !DOCTYPE declaration defines the document type to be HTML
+The text between <html> and </html> describes an HTML document
+The text between <head> and </head> provides information about the document
+The text between <title> and </title> provides a title for the document
+The text between <body> and </body> describes the visible page content
+The text between <h1> and </h1> describes a heading
+The text between <p> and </p> describes a paragraph
+EXERCISE 1
+It's time to take a look at how browsers (like Chrome) render HTML content!
+
+Create a new example.html file and paste in the following:
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML EXAMPLE</title>
+</head>
+<body>
+
+<h1>HTML Example 1</h1>
+<p>[CMD + OPT + U] to view the source code of this HTML document.</p>
+<p>Now close the source code and inspect the document in the Elements panel of your Chrome Developer Tools [CMD + OPT + I] instead</p>
+<p>Use the magnifying glass in the top left to select elements in the window area.</p>
+<p>
+  W  O  A  h
+    WHAT'S
+  GO  -  ING
+                    on
+
+
+  h   e   r   e
+              !
+        !
+  !
+</p>
+<!-- ALERT: THIS IS JUST A COMMENT -->
+
+<!--
+
+    SECRET: Developers often use comments to annotate their code.
+
+            ...or complain about their bosses. They aren't rendered on the page.
+            So only people who view the source code get to see them. Fun!
+
+-->
+</body>
+</html>
+
+<html>
+  <head>
+    <title>More styles!</title>
+  </head>
+  <body>
+    <h1>This is a header</h1>
+    <h2>This is an even smaller header</h2>
+    <h3>Even smaller...</h3>
+    <h6>Quite small</h6>
+    <p>Here is some normal text. A paragraph, even!</p>
+    <p><i>This text is in italics.</i></p>
+    <p><b>This text is in bold.</b></p>
+    <p><b><i>This text is in both.</i></b></p>
+    <p><del>This text is rendered with strikethrough.</del></p>
+    <p>Sometimes you want to embed some <i>stylized text</i> right into <b>your paragraph.</b> Pretty cool, right!</p>
+    <p>You could BREAK <br> the line, but it's not used very often these days.</p>
+    <hr>
+    <ul>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Another item</li>
+    </ul>
+    <p>w/ sub-lists</p>
+    <ol>
+      <li>Item one</li>
+      <li>Item two</li>
+      <li>Item three
+        <ul>
+          <li>Sub-item</li>
+          <li>Sub-item</li>
+        </ul>
+      </li>
+      <li>Item four</li>
+    </ol>
+      <p><a href="http://www.google.com">I&#39;m a link to a web page!</a></p>
+    <p><img src="https://i.imgur.com/81qyN1y.jpg" alt="This text will show up, only if the image doesn't (also good for screen readers)"></p>
+    <p><img src="../../assets/images/profile.png" alt="local photo"></p>
+  </body>
+</html>
+
+<body style="background-color:lightgrey">
+  <h1 style="color:blue">This is a heading</h1>
+  <h1 style="color:#AA22FF">Also a heading</h1>
+  <h1 style="color:rgb(0,255,255)">Moar!!</h1>
+  <p style="color:red;background-color:green">This is a paragraph.</p>
+  <img src="https://i.imgur.com/81qyN1y.jpg" style="height:100px;width:100px">
+</body>
