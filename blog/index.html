@@ -7,13 +7,24 @@
   <title>Christopher Williams | Blog</title>
   <style>
 
+
  #width {
    width: 400px;
  }
  #highlight{
    text-transform: uppercase;
  }
-
+ .container {
+    max-width: 960px;
+    margin: 30px;
+    border: 5px solid white;
+    padding: 10px 10px;
+}
+     html {
+      box-sizing: border-box;
+      border: 5px solid white;
+      margin:25px;
+     }
      body{
         background-color: black;
         font-family: sans-serif;
@@ -37,33 +48,34 @@
        p{
          font-family: Garamond;
          text-align:center;
+         align-items: center;
 
        }
 
   </style>
 </head>
 <body>
-  <nav>
+  <nav class="container">
    <a href="../index.html"> Home</a>
    <a href="../projects/index.html"> Projects</a>
    <a href="../media/index.html">Media</a>
    <a href="../blog/index.html">Blog</a>
    <a href="mailto: christopher.brett716@gmail.com?Subject=Contact%20Form">Contact Me</a>
   </nav>
-  <div>
+  <div class="container">
     <h1>a blog title</h1>
     <p><img src="https://avatars1.githubusercontent.com/u/22690861?s=460&v=4"></p>
     <h2>signature subtitle</h2>
   </div>
-  <div>
+  <div class="container">
     <h2>content</h2>
-    <p class= "width">Next month I will be writing and recording <span class="highlight">a song a day</span>.
+    <p>Next month I will be writing and recording <span class="highlight">a song a day</span>.
       I tried last year and only made it seven days.
       Daily content is the way to go. And what better way to
       refine recording music than to do it <span class="highlight">everyday</span>.
       So here's to the month of February.</p>
   </div>
-  <footer class="footer">
+  <footer class="container">
     <p> christopher.brett716@gmail.com copyright 2018</p>
   </footer>
 
