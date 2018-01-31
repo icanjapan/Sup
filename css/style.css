@@ -1,0 +1,86 @@
+#primary {
+   background-color: black;
+   font-family: WindsorD, Georgia, serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   letter-spacing: normal;
+   line-height: 60px;
+   text-transform: none;
+   text-align: center: ;
+    }
+
+.left {
+   text-align:left;
+    }
+
+.right {
+  text-align: right;
+   }
+
+h1 {
+  font-family: Garamond, sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 29px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #989898;
+  }
+
+ p {
+    font-family: Nimbus Sans, Europa,sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+ul {
+  font-family: Didot, Georgia, Times, serif;
+  color: white;
+  text-align: left;
+  }
+
+  #width {
+    width: 400px;
+  }
+  #highlight{
+    text-transform: uppercase;
+  }
+  .container {
+     max-width: 960px;
+     margin: 30px;
+     border: 5px solid white;
+     padding: 10px 10px;
+  }
+      html {
+       box-sizing: border-box;
+       border: 5px solid white;
+       margin:25px;
+      }
+      body{
+         background-color: black;
+         font-family: sans-serif;
+         color:white;
+         }
+        div{
+          font-weight: lighter;
+        }
+        h1{
+          font-family: Garamond;
+          text-transform:uppercase;
+          color: white;
+          text-align: center;
+        }
+        h2{
+          font-family: sans-serif;
+          text-align: center;
+          font-size: 15px;
+          color: white;
+        }
+        p{
+          font-family: Garamond;
+          text-align:center;
+          align-items: center;
+        }
