@@ -4,6 +4,9 @@ body {
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
+#greeting{
+  background-color: pink;
+}
 h1 {
   font-family: Garamond, sans-serif;
   font-size: 43px;
