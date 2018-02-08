@@ -4,8 +4,11 @@ body {
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
-#greeting{
+#greeting, #greeting p {
   background-color: pink;
+  color: black;
+  margin: 10px;
+  padding:10px;
 }
 h1 {
   font-family: Garamond, sans-serif;
@@ -62,7 +65,7 @@ hr {
     text-align: left;
     font-size: 8px;
 }
-a:link, a:visited {
+script, a:link, a:visited {
 
     text-decoration: none;
     background-color: black;

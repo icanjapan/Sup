@@ -17,10 +17,37 @@
   <div class="container">
 
   </div>
-  <form class="container">
-    <input type="text">
-    <input type="password">
-    <input type="email">
+  <form action="form-responses/new" method="POST" class="container">
+    <input type="text" name="firstname" placeholder="First Name" size="100" autofocus>
+    <input type="text" name="lastname" placeholder="Last Name" size="100">
+    <input type="email" name="userEmail" placeholder="your.email@example.com">
+
+    <label>what's this message about?
+      <input type="radio" name="subject" value="professional"checked><span>i'd like to hire you!</span>
+      <input type="radio" name="subject" value="personal" checked><span>personal message</span>
+      <input type="radio" name="subject" value="other" checked><span>don't kno/something else</span>
+    </label>
+
+    <input type="checkbox" name="optin" value="trusting" checked>subscribe me to your newsletter!
+    <input type="checkbox" name="optout" value="skeptical" disabled>cheeky checkbox...
+
+    <label for="marketing">how did you hear about me?</label>
+    <selct name="marketing">
+      <optgroup label="online">
+        <option value="social">social media (fb, twitter, linkedin)</option>
+        <option value="github">online portfolio (github)</option>
+        <option value="search">search engine</option>
+        <option value="email">email</option>
+      </optgroup>
+      <optgroup label="in-person">
+        <option value="networking">we met at a networking event</option>
+        <option value="referral">personal referral</option>
+        <option value="random">we met somewhere else</option>
+      </optgroup>
+      <option value="other">other</option>
+    </selct>
+
+    <textarea name="user_message" cols="40" rows="8"></textarea>
     <input type="submit">
   </form>
   <hr>copyright 2018 | Christopher Brett Williams</hr>
