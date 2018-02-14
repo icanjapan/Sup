@@ -1,4 +1,4 @@
-var response = prompt("what if you were a dragon. would you like it? y or n?");
+var response = prompt("what if you were a dragon? would you like it? y or n?");
 
     if(response ==="y"){
         response = prompt("correct. you fly over to the nearest town. do you burn up the village or not? y or n?");
