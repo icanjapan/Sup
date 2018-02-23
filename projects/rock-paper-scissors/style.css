@@ -1,0 +1,101 @@
+body {
+  background-color:black;
+  color: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+#greeting, #greeting p {
+  background-color: pink;
+  color: black;
+  margin: 10px;
+  padding:10px;
+}
+h1 {
+  font-family: Garamond, sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 29px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #989898;
+  }
+  .container {
+     max-width: 960px;
+     margin: 30px;
+     border: 5px solid white;
+     padding: 10px 10px;
+ }
+/* #primary {
+     background-color: black;
+     font-family: WindsorD, Georgia, serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     letter-spacing: normal;
+     line-height: 60px;
+     text-transform: none;
+     text-align: center: ;
+      }*/
+p {
+  margin: 100px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ol {
+  list-style-type: none;
+  margin: 200px;
+  padding: 0;
+  text-align: center;
+}
+hr {
+    display: ;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    text-align: left;
+    font-size: 8px;
+}
+script, a:link, a:visited {
+
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 5px;
+    margin: 20px;
+    border: 4px solid white;
+
+}
+
+a:hover {
+
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-transform: uppercase;
+  padding: 5px;
+  margin: 20px;
+
+}
+a:active {
+
+  text-decoration: line-through;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-transform: uppercase;
+  padding: 5px;
+  margin: 20px;
+}
